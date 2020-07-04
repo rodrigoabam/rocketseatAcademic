@@ -20,6 +20,6 @@ Obs.: Esse desafio é baseado no arquivo do desafio 2-3
  ## Ilustração da aplicação atual:
 
 <h1>
-    <img src="public/imagens/d-2-3.gif">
+    <img src="public/imagens/d-3-1.gif">
 </h1>
 
