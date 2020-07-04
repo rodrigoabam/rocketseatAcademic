@@ -1,27 +1,25 @@
 # Projeto da [Rocketseat](https://rocketseat.com.br/) - Turma LaunchBase 2020
 
 ## [Desafio 2-3](https://github.com/Rocketseat/bootcamp-launchbase-desafios-02/blob/master/desafios/02-3-pagina-cursos-e-iframe.md): Página de cursos e iframe
+## [Desafio 3-1](https://github.com/Rocketseat/bootcamp-launchbase-desafios-03/blob/master/desafios/03-1-primeiro-servidor.md): Página de cursos e iframe
 
-## O desafio teve como objetivo fortalecer os conceitos:
- - Posicionando elementos HTML com CSS grid;
- - Manipulando a DOM através do JavaScript;
- - Tag 'iframe';
- - Entre outros elementos que foram apresentado no 2º Módulo;
-
- ---
-
- ## Descrição do desafio:
-Criar uma página que deve conter um grid onde devem ser mostrados os 3 principais cursos da Rocketseat. Ao clicar em um dos cursos, deve ser aberta uma modal onde um iframe irá carregar as informações do curso selecionado.
-
-No modal deve conter o botão de fechar e de máximizar o modal, ao abrir um novo modal, este não pode abrir maximizado e sim no modo padrão.
-
-Obs.: Esse desafio é baseado no arquivo do desafio 2-2
+## O desafio atual teve como objetivo fortalecer os conceitos:
+ - Página dinâmica com Nunjucks;
+ - Criar um servidor;
+ - Criar rotas;
 
  ---
 
- ## Ilustração da aplicação:
+ ## Descrição do desafio atual:
+Criar um servidor que tenha rotas que deverão retornar o conteúdo do html gerados no desafio 2-3. Além de implementar um arquivo padrão (layout.njk) que reaproveite o código em comum entre os arquivos e também um arquivo que sirva uma página de erro 404.
+
+Obs.: Esse desafio é baseado no arquivo do desafio 2-3
+
+ ---
+
+ ## Ilustração da aplicação atual:
 
 <h1>
-    <img src="imagens/d-2-3.gif">
+    <img src="public/imagens/d-2-3.gif">
 </h1>
 
