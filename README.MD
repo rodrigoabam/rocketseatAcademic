@@ -1,7 +1,7 @@
 # Projeto da [Rocketseat](https://rocketseat.com.br/) - Turma LaunchBase 2020
 
 ## [Desafio 2-3](https://github.com/Rocketseat/bootcamp-launchbase-desafios-02/blob/master/desafios/02-3-pagina-cursos-e-iframe.md): Página de cursos e iframe
-## [Desafio 3-1](https://github.com/Rocketseat/bootcamp-launchbase-desafios-03/blob/master/desafios/03-1-primeiro-servidor.md): Página de cursos e iframe
+## [Desafio 3-1](https://github.com/Rocketseat/bootcamp-launchbase-desafios-03/blob/master/desafios/03-1-primeiro-servidor.md): Primeiro servidor 
 
 ## O desafio atual teve como objetivo fortalecer os conceitos:
  - Página dinâmica com Nunjucks;
