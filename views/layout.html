@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    {% block head %}
+        <title>Rocketseat</title>
+    {% endblock %}
+
+    <link rel="stylesheet" href="/styles/main.css">
+
+    <link rel="icon" href="/imagens/favicon.ico.png">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="/"><img src="/imagens/logo-rocket.svg" alt="logo-rocket"></a>
+        </div>
+        <div class="links">
+            <a href="https://discordapp.com/invite/gCRAFhc">Comunidade</a>
+            <a href= "mailto:oi@rocketseat.com.br">Email</a>
+            <a href="tel:+5547992078767">Telefone</a>
+            <a href="/courses">Cursos</a>
+            <a href="/instructor">Instrutor</a>
+        </div>
+        <div class="perfil">
+            <a href="/profile"><img src="https://avatars2.githubusercontent.com/u/62651527?s=460&u=88f5d7501ea4e07aad56e509bcfe886288dba427&v=4" alt="student"></a>
+        </div>
+    </header>
+
+    {% block content %} {% endblock %}
+
+    <footer>
+        <div id="links-footer" class="links">
+            <a href="https://github.com/Rocketseat" target="_blank">Github</a>
+            <a href="https://www.instagram.com/rocketseat_oficial/" target="_blank">Instagram </a>
+            <a href="https://www.facebook.com/rocketseat" target="_blank">Facebook</a>
+        </div>
+    </footer>
+</body>
+</html>

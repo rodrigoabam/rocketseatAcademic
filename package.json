@@ -1,0 +1,28 @@
+{
+  "name": "d-1",
+  "version": "1.0.0",
+  "description": "- Posicionando elementos HTML com CSS grid;\r  - Manipulando a DOM através do JavaScript;\r  - Tag 'iframe';\r  - Entre outros elementos que foram apresentado no 2º Módulo;",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigoabam/rocketseatAcademic.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodrigoabam/rocketseatAcademic/issues"
+  },
+  "homepage": "https://github.com/rodrigoabam/rocketseatAcademic#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
