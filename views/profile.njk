@@ -6,10 +6,10 @@
 
 {% block content %}   
         <div id="wrapper">
-            <img src="https://avatars2.githubusercontent.com/u/62651527?s=460&u=88f5d7501ea4e07aad56e509bcfe886288dba427&v=4" alt="Aluno">
-            <h1>Rodrigo Barbosa</h1>
-            <h2>Aluno - Rocketseat Launchbase</h2>
-            <p>Estudante Front-End, focado em aprender todo o conteúdo ministrado no bootcamp da Rocketseat e se tornar um profissional altamente qualificado.</p>
+            <img src="{{ avatar.url }}" alt="Imagem de {{ avatar.name }}">
+            <h1>{{ avatar.name }}</h1>
+            <h2>{{ avatar.role }}</h2>
+            <p>{{ avatar.description }}</p>
         </div>
 {% endblock %}
      

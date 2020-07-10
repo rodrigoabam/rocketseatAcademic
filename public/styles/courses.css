@@ -16,13 +16,14 @@
 
 .card {
     padding: 14px;
-    height: 300px;
+    height: 400px;
 
     background-color: #20212b; 
 
     display: flex;
     flex-direction: column;
 
+    justify-content: center;
     align-items: center;
 
     cursor: pointer;
@@ -73,63 +74,66 @@
     }
 }
 
+/* COURSE */
 
-/* MODAL OVERLAY */
+.card-course {
+    padding: 14px;
+    height: 400px;
+    width: 400px;
 
-.modal-overlay {
-    background-color: rgb(0, 0, 0, 0.7);
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    opacity: 0;
-    visibility: hidden;
+    margin: 0 auto 38px; 
+
+    background-color: #20212b; 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid black;
+    border-radius: 8px;
 }
 
-.modal {
-    background-color: white;
-    width: 90%;
-    height: 90%;
-    margin: 6vh auto;
-
-    position: relative;
+.card-course {
+    animation: move 600ms;
+    animation-delay: 300ms;
+    animation-fill-mode: backwards;
 }
 
-.close-modal, .maximize-modal {
-    position: absolute;
-    top: 4px;
-    right: 4px;
-    color: black;
-    cursor: pointer;
+.card-course img {
+    margin: 14px;
 }
 
-.maximize-modal {
-    right: 28px;
+.card-course p {
+    margin: 12px;
+    text-align: center;
 }
 
-/* MODAL OVERLAY ACTIVE */
-
-.modal-overlay.active {
-    opacity: 1;
-    visibility: visible;
+.card-course a {
+    padding: 14px;
+    border-radius: 6px;
 }
 
-iframe {
-    width: 100%;
-    height: 90%;
-    top: 5%;
-    position: absolute;
+#Starter.card-course a {
+    background-color: #7159C1;
 }
 
-/* MODAL OVERLAY MAX */
-
-.modal.max {
-    width: 100%;
-    height: 100%;
-    margin: 0;
+#LaunchBase.card-course a {
+    background-color: #FD951F;
 }
 
-iframe.max {
-    height: 100%;
+#GoStack.card-course a {
+    background-color: #50fa7b;
 }
 
+#Starter.card-course {
+    border: 2px solid #7159C1;
+}
+
+#LaunchBase.card-course {
+    border: 2px solid #FD951F;
+}
+
+#GoStack.card-course {
+    border: 2px solid #23D975;
+}

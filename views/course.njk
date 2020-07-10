@@ -1,33 +1,28 @@
 {% extends "layout.njk" %}
 
 {% block head %}
-    <title>Rocketseat - Cursos</title>
+    <title>Rocketseat - Nome Curso</title>
 
     <link rel="stylesheet" href="/styles/courses.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-    <script src="/scripts.js" defer></script>
 {% endblock %}
 
 {% block content %}   
-        <div class="container-body">
-       
+    <div class="container-body">
+
         <div>
-            <h1>Conteúdos</h1>
+            <h1>Curso</h1>
         </div>
 
-        <section class="cards">
-
-            {% for module in modules %}
-            <div class="card" id="{{ module.id }}">
+         <div class="card-course" id="{{ module.id }}">
                 <img src="{{ module.imagem }}" alt="Imagem do {{ module.id }}">
                 <div class="card-info">
                     <p>{{ module.duration }}</p>
-                    <p>{{ module.price }}</p>
+                    <p>{{ module.description }}</p>
                 </div>
+                <a href="{{ module.link }}">Mais informações.</a>
             </div>      
-            {% endfor %}    
 
-        </section>       
-
+    </div>
+        
 {% endblock %}
